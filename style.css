@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+ 
+  section {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+
+  #current-image-container{
+    padding: 20px 10px;
+    background-color: black;
+    color: white;
+    width: fit-content; 
+    margin: 0 auto;
+  }
+
+  #current-image-container h4{
+    font-size: 25px;
+  }
+
+  #current-image-container img{
+    width: 1300px;
+    height: 400px;
+  }
+
+  #current-image-container p{
+    width: 1300px;
+  }
+
+  #history{
+    margin:20px 0;
+  }
+
+#search-history{
+    color: blue;
+    text-decoration: underline;
+}
